@@ -263,7 +263,7 @@ button[type="submit"]:hover {
     margin-bottom: 10px;
   }
   .banner-text {
-    top: 70%;
+    top: 50%;
   }
   .hide-mobile {
     display: none;
