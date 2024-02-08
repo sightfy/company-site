@@ -1,145 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Sightfy</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-
-body, html {
-  height: 100%;
-  line-height: 1.8;
-}
-
-/* Full height image header */
-.bgimg-1 {
-  background-position: center;
-  background-size: cover;
-  background-image: url("https://sightfy.github.io/company-site/images/img1.jpg");
-  min-height: 100%;
-}
-
-.w3-bar .w3-button {
-  padding: 16px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sightfy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide">Sightfy</a>
-  </div>
-</div>
-
-<!-- Header with full-height image -->
-<header class="bgimg-1 w3-text-white w3-display-container w3-grayscale" id="home">
-  <div class="w3-display-left" style="padding:48px; text-shadow: 1px 1px 0 #444; font-weight: bold;">
-    <span class="w3-jumbo w3-hide-small">Transforme Sua Empresa Hoje</span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Transforme Sua Empresa Hoje</span><br>
-    <span class="w3-large">Pare de perder tempo com projetos que não foram feitos para você.</span>
-</header>
-
-<!-- About Section -->
-<div class="w3-container" style="padding:128px 16px" id="about">
-  <div class="w3-row-padding w3-center" style="display: flex; justify-content: center;">
-    <div class="w3-col l3 m4 w3-margin-bottom">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-      <p class="w3-large">Desenvolvimento de sistemas personalizados</p>
-      <p>Criação de sistemas específicos para atender às necessidades do seu negócio.</p>
-    </div>
-    <div class="w3-col l3 m4 w3-margin-bottom">
-      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Consultoria</p>
-      <p>Analisamos as melhores soluções para os seus sistemas.</p>
-    </div>
-    <div class="w3-col l3 m4 w3-margin-bottom">
-      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Suporte</p>
-      <p>Todos os sistemas desenvolvidos por nós possui uma equipe de suporte capacitada.</p>
-    </div>
-  </div>
-</div>
-
-<!-- Promo Section - "We know design" -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px">
-  <div class="w3-row-padding">
-    <div class="w3-col" style="text-align: justify;">
-      <h3>Nós entendemos do negócio.</h3>
-      <p>Você está procurando por consultoria em TI de alta qualidade? A Sightfy oferece soluções personalizadas para atender às necessidades específicas da sua empresa. Nossa equipe experiente e dedicada está pronta para ajudá-lo a impulsionar a eficiência e a inovação em sua infraestrutura de tecnologia. A Sightfy é a escolha ideal para empresas que buscam consultoria confiável e especializada em TI. Entre em contato conosco hoje para descobrir como podemos ajudar a impulsionar o sucesso do seu negócio.</p>
-  </div>
-</div>
-
-<!-- Team Section -->
-<div class="w3-container" style="padding:128px 16px" id="team">
-  <h3 class="w3-center">CLIENTES</h3>
-  <p class="w3-center w3-large">Nossos parceiros</p>
-  <div class="w3-row-padding" style="display: flex; justify-content: center;">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="https://sightfy.github.io/company-site/images/vix.jpg" alt="Vix Reguladora" style="width:100%; height: 150px;">
-        <div class="w3-container">
-          <h3>Vix Reguladora</h3>
+    <header>
+        <div class="container">
+            <h1>Sightfy</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#partners">Parceiros</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
+
+    <div class="banner">
+      <img src="/imgs/header.jpg" alt="Banner Image">
+      <div class="banner-text">
+        <h1 class="small-mobile">Transforme Sua Empresa Hoje</h1>
+        <p class="hide-mobile">Pare de perder tempo com projetos que não foram feitos para você.</p>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="https://sightfy.github.io/company-site/images/sds.jpg" alt="Jane" style="width:100%; height: 150px;">
-        <div class="w3-container">
-          <h3>SDS Soluções</h3>
+
+    <section id="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="card-container">
+              <div class="card">
+                <p class="card-icon"><i class="fa fa-desktop"></i></p>
+                <h3 class="card-header">Desenvolvimento de sistemas personalizados</h3>
+                <p class="card-paragraphy">Criação de sistemas específicos para atender às necessidades do seu negócio.</p>
+              </div>
+              <div class="card">
+                <p class="card-icon"><i class="fa fa-diamond"></i></p>
+                <h3 class="card-header">Consultoria</h3>
+                <p class="card-paragraphy">Analisamos as melhores soluções para os seus sistemas.</p>
+              </div>
+              <div class="card">
+                <p class="card-icon"><i class="fa fa-cog"></i></p>
+                <h3 class="card-header">Suporte</h3>
+                <p class="card-paragraphy">Todos os sistemas desenvolvidos por nós possui uma equipe de suporte capacitada.</p>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p class="justify-text">Bem-vindo à Sightfy, onde estamos comprometidos em resolver os problemas dos nossos clientes e impulsionar o sucesso de suas empresas. Com uma equipe de especialistas apaixonados por tecnologia e inovação, buscamos constantemente as soluções mais eficazes para os desafios em constante evolução do mundo digital.</p>
+            <p class="justify-text">Não apenas resolvemos problemas - criamos oportunidades. Estamos aqui para ajudá-lo a navegar pelo mundo digital em constante mudança e alcançar novos patamares de sucesso. Junte-se a nós e descubra como podemos transformar sua visão em realidade.</p>
+        </div>
+    </section>
+
+    <section id="partners">
+      <div class="container">
+        <h2>Nossos Parceiros de Negócio</h2>
+        <div class="card-container">
+          <div class="card">
+              <img src="/imgs/partner1.jpg" alt="Parceiro 1" class="partner-img">
+              <h3>Vix Reguladora</h3>
+          </div>
+          <div class="card">
+              <img src="/imgs/partner2.jpg" alt="Parceiro 2" class="partner-img">
+              <h3>SDS Soluções</h3>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
+    </section>
 
-<!-- Contact Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
-  <h3 class="w3-center">CONTATO</h3>
-  <p class="w3-center w3-large">Não perca tempo, nos mande uma mensagem:</p>
-  <div style="margin-top:48px">
-    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: daniel.carneiro@sightfy.com.br</p>
-  </div>
-</div>
+    <section id="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Entre em contato conosco para obter mais informações sobre nossos serviços.</p>
+            <p><i class="fa fa-envelope fa-fw"></i> Email: daniel.carneiro@sightfy.com.br</p>
+            <!-- <form action="mailto:daniel.carneiro@sightfy.com.br" method="post" enctype="text/plain">
+              <div class="form-group">
+                  <label for="name">Nome:</label>
+                  <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                  <label for="message">Mensagem:</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <div style="display: flex; justify-content: flex-end;"><button type="submit">Enviar</button></div>
+          </form> -->
+        </div>
+    </section>
 
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Voltar</a>
-  <p>Todos os direitos reservados à Sightfy LTDA.</p>
-</footer>
- 
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
+    <button onclick="topFunction()" id="myBtn" title="Voltar para o início"><i class="fa fa-arrow-up"></i></button>
 
+    <footer>
+        <div class="container">
+            <p id="copyright"></p>
+        </div>
+    </footer>
 
-// Toggle between showing and hiding the sidebar when clicking the menu icon
-var mySidebar = document.getElementById("mySidebar");
-
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-  } else {
-    mySidebar.style.display = 'block';
-  }
-}
-
-// Close the sidebar with the close button
-function w3_close() {
-    mySidebar.style.display = "none";
-}
-</script>
-
+    <script src="script.js"></script>
 </body>
+
 </html>
